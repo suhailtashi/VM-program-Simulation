@@ -108,7 +108,7 @@ The server team received remediation scripts and scan reports to address key vul
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/c04dd4b1-deb1-449f-9212-b304a52fd97a">
 
-[Remediation Email](https://github.com/suhailtashi/vulnerability-management-program/blob/main/remediation-email.md)
+[Remediation Email](https://github.com/suhailtashi/VM-program-Simulation/blob/main/remediation-email.md)
 
 ---
 
@@ -136,7 +136,7 @@ The Change Control Board (CAB) reviewed and approved the plan to remove insecure
 #### Remediation Round 1: Outdated Wireshark Removal
 
 The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
-[Wireshark Removal Script](https://github.com/suhailtashi/vulnerability-management-program/blob/main/Remediation%20Scripts/remediation-wireshark-uninstall.ps1)  
+[Wireshark Removal Script](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/remediation-wireshark-uninstall.ps1)  
 
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/53d5172d-0a31-4b86-a27e-ddb4d993b6f1">
 
@@ -145,8 +145,8 @@ The server team used a PowerShell script to remove outdated Wireshark. A follow-
 #### Remediation Round 2: Insecure Protocols & Ciphers
 
 The server team used PowerShell scripts to remediate insecure protocols and cipher suites. A follow-up scan verified successful remediation, and the results were saved for reference.  
-[PowerShell: Insecure Protocols Remediation](https://github.com/suhailtashi/vulnerability-management-program/blob/main/Remediation%20Scripts/toggle-protocols.ps1)
-[PowerShell: Insecure Ciphers Remediation](https://github.com/suhailtashi/vulnerability-management-program/blob/main/Remediation%20Scripts/toggle-cipher-suites.ps1)
+[PowerShell: Insecure Protocols Remediation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/toggle-protocols.ps1)
+[PowerShell: Insecure Ciphers Remediation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/toggle-cipher-suites.ps1)
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/e39db892-1517-40e6-af8c-1d613dcdffb2">
 
@@ -156,7 +156,7 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 #### Remediation Round 3: Guest Account Group Membership
 
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
-[PowerShell: Guest Account Group Membership Remediation](https://github.com/suhailtashi/vulnerability-management-program/blob/main/Remediation%20Scripts/toggle-guest-local-administrators.ps1)  
+[PowerShell: Guest Account Group Membership Remediation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/toggle-guest-local-administrators.ps1)  
 
 <img width="627" alt="image" src="https://github.com/user-attachments/assets/12aebec3-6000-44cf-a872-5f77b94ad029">
 
@@ -174,8 +174,8 @@ Windows updates were re-enabled and applied until the system was fully up to dat
 #### Remediation Round 5: Certificate Trust Bypass (CVE-2013-3900) & SMB Signing Enforcement
 
 The server team used PowerShell scripts to apply the CVE-2013-3900 registry mitigation and enforce SMB signing via local policy configuration. A final scan verified successful remediation, and the results were saved for reference.  
-[PowerShell: CVE-2013-3900 Mitigation](https://github.com/suhailtashi/vulnerability-management-program/blob/main/Remediation%20Scripts/CVE-2013-3900%20Mitigation.ps1)  
-[PowerShell: SMB Signing Enforcement](https://github.com/suhailtashi/vulnerability-management-program/blob/main/Remediation%20Scripts/SMB%20Signing%20Required%20enforcement.ps1)
+[PowerShell: CVE-2013-3900 Mitigation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/CVE-2013-3900%20Mitigation.ps1)  
+[PowerShell: SMB Signing Enforcement](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/SMB%20Signing%20Required%20enforcement.ps1)
 
 <img width="627" alt="image" src="https://github.com/user-attachments/assets/d61f4f20-0cfb-4fd6-beff-245a29f989f6">
 
