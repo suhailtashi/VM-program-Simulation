@@ -128,7 +128,7 @@ The Change Control Board (CAB) reviewed and approved the plan to remove insecure
 
 <a href="https://youtu.be/" target="_"><img width="600" src="https://github.com/user-attachments/assets/fe910022-c90a-4b75-807a-8d48c35840e8"/></a>
 
-[Meeting Video](https://youtu.be/)
+[Meeting Video](https://youtu.be/AcfZlXNVQmI?si=ndd_lKUR_XEfN1wt)
 
 ---
 ### Step 10 ) Remediation Effort
@@ -217,3 +217,5 @@ By maintaining an active vulnerability management process, organizations can sta
 ### Special Thanks To
 - **Josh Madakor** for creating the [Cyber Range](https://www.skool.com/cyber-range/about?ref=55aab77677f844cba064b72c3d055fca) which this project was a part of.
 - **Ibrahim Hefzulla** for participating in the mock meetings.
+- **Zain Hilal** for participating in the mock meetings.
+- **Sultan** for participating in the mock meetings.
