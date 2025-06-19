@@ -49,7 +49,7 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
 
-<a href='https://youtu.be/_Dd3Mzivk9w?si=bAzqfu1bKw-hYnfH' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/f0527137-ba1d-4f5c-9eec-21b7fe658cda"></a>
+<a href='https://youtu.be/_Dd3Mzivk9w?si=bAzqfu1bKw-hYnfH' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/a832b314-63ee-4598-9a9d-4e6253ca1238"></a>
 
 
 
@@ -62,7 +62,7 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
 [Finalized Policy](https://docs.google.com/document/d/1gMHGbobC-UQQ3vzkS2QO7yCioJgQqN13v4MEK5oeSVM/edit?usp=sharing)
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/f86a2851-af35-47a8-92ac-321653cd4197" alt="image" width="400">
+    <img src="https://github.com/user-attachments/assets/7e0c4e6e-6db7-4e25-9b13-fe3d0875faad" alt="image" width="400">
 
 </div>
 
@@ -72,7 +72,7 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
 
-<a href='https://youtu.be/cuktQuDc6xE?si=1cLLNvhVszSS8Zmv' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/cd94b659-f6c8-40b3-adbd-9d712fb8ba8d"></a>
+<a href='https://youtu.be/cuktQuDc6xE?si=1cLLNvhVszSS8Zmv' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/5a2ff6b5-6d24-4a0c-b676-c4c3e52a053f"></a>
 
 [YouTube Video: Initial Discovery Scan](https://youtu.be/cuktQuDc6xE?si=1cLLNvhVszSS8Zmv)
 
@@ -82,7 +82,7 @@ The team collaborates with the server team to initiate scheduled credential scan
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/c0400a7f-7c59-4711-ad20-b82353bbc2d3" style="border: 2px solid black;">
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/d2ada001-d5ed-478f-afd6-b5eb078d7dc4" style="border: 2px solid black;">
 
 [Scan 1 - Initial Scan](https://drive.google.com/file/d/1bdTIsjVUDZR00YsX0yteA5y-SzsipkYv/view?usp=sharing)
 
@@ -106,7 +106,7 @@ We assessed vulnerabilities and established a remediation prioritization strateg
 
 The server team received remediation scripts and scan reports to address key vulnerabilities. This streamlined their efforts and prepared them for a follow-up review.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/c04dd4b1-deb1-449f-9212-b304a52fd97a">
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/9baf99ff-6374-497d-af98-857fc8cb3f68">
 
 [Remediation Email](https://github.com/suhailtashi/VM-program-Simulation/blob/main/remediation-email.md)
 
@@ -116,7 +116,7 @@ The server team received remediation scripts and scan reports to address key vul
 
 The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
 
-<a href="https://youtu.be/moMX0jtLCdg?si=GeDHR3aHpzvSiLmY" target="_"><img width="600" src="https://github.com/user-attachments/assets/6a02aea0-d8e3-4fd7-9e5b-e218e0de8f5b"/></a>
+<a href="https://youtu.be/moMX0jtLCdg?si=GeDHR3aHpzvSiLmY" target="_"><img width="600" src="https://github.com/user-attachments/assets/d48f8428-04fd-4997-a4af-c7d05a78a8f2"/></a>
 
 [Meeting Video](https://youtu.be/moMX0jtLCdg?si=GeDHR3aHpzvSiLmY)
 
@@ -126,7 +126,7 @@ The server team reviewed vulnerability scan results, identifying outdated softwa
 
 The Change Control Board (CAB) reviewed and approved the plan to remove insecure protocols and cipher suites. The plan included a rollback script and a tiered deployment approach.  
 
-<a href="https://youtu.be/" target="_"><img width="600" src="https://github.com/user-attachments/assets/fe910022-c90a-4b75-807a-8d48c35840e8"/></a>
+<a href="https://youtu.be/" target="_"><img width="600" src="https://github.com/user-attachments/assets/3fa742fc-78b4-4cf5-a221-3528e9797158"/></a>
 
 [Meeting Video](https://youtu.be/AcfZlXNVQmI?si=ndd_lKUR_XEfN1wt)
 
@@ -138,7 +138,7 @@ The Change Control Board (CAB) reviewed and approved the plan to remove insecure
 The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
 [Wireshark Removal Script](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/remediation-wireshark-uninstall.ps1)  
 
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/53d5172d-0a31-4b86-a27e-ddb4d993b6f1">
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/10e30426-f901-4439-8cc6-7bdd7f1940f7">
 
 [Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1JzqZDlNsKDH7PpgjUgHZwrVxdxXLDsvj/view?usp=sharing)
 
@@ -148,7 +148,7 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 [PowerShell: Insecure Protocols Remediation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/toggle-protocols.ps1)
 [PowerShell: Insecure Ciphers Remediation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/toggle-cipher-suites.ps1)
 
-<img width="630" alt="image" src="https://github.com/user-attachments/assets/e39db892-1517-40e6-af8c-1d613dcdffb2">
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/b92e2bc6-94ed-4ab6-98b2-fbc0e358cedc">
 
 [Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Y6SvxwpHmj7VdYnjEJ2OQAWPpkDoaWhX/view?usp=sharing)
 
@@ -158,7 +158,7 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
 [PowerShell: Guest Account Group Membership Remediation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/toggle-guest-local-administrators.ps1)  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/12aebec3-6000-44cf-a872-5f77b94ad029">
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/18ff6c9c-dc3a-4f50-b6a8-52a88cdd5a90">
 
 [Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/16BR8Z2vG3uVRjS3jSrVUj79w8qpkD8KT/view?usp=sharing)
 
@@ -167,7 +167,7 @@ The server team removed the guest account from the administrator group. A new sc
 
 Windows updates were re-enabled and applied until the system was fully up to date. A follow-up scan verified the changes, in preperation for the final round.
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/2092eee3-58b9-43cc-a67e-447da41fb130">
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/f1addc96-aa5e-4c23-90b0-373dcc8e2a20">
 
 [Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1TPp3UJxYyRgXtpm0MiERuPxAYfG3Qem_/view?usp=sharing)
 
@@ -177,7 +177,7 @@ The server team used PowerShell scripts to apply the CVE-2013-3900 registry miti
 [PowerShell: CVE-2013-3900 Mitigation](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/CVE-2013-3900%20Mitigation.ps1)  
 [PowerShell: SMB Signing Enforcement](https://github.com/suhailtashi/VM-program-Simulation/blob/main/Remediation%20Scripts/SMB%20Signing%20Required%20enforcement.ps1)
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/d61f4f20-0cfb-4fd6-beff-245a29f989f6">
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/dc49faab-1617-4d89-9729-f6891f00f566">
 
 [Scan 6 - CVE-2013-3900 Patch & SMB Fix](https://drive.google.com/file/d/1Mh84857PWtjelQ38Vakm6O95wd4x4L8G/view?usp=sharing)
 
@@ -193,7 +193,7 @@ The remediation process reduced total vulnerabilities by **87%**, from 30 in Sca
 
 This trend demonstrates effective remediation across multiple severity levels. In a production environment, asset criticality and risk tolerance would further guide prioritization in future cycles.  
 
-<img width="1920" alt="image" src="https://github.com/user-attachments/assets/d5864854-faf7-47a5-9528-9b5dd4b53876">
+<img width="1920" alt="image" src="https://github.com/user-attachments/assets/33197c92-849a-4809-8652-7f8bc4b642ae">
 
 
 [Remediation Data](https://docs.google.com/spreadsheets/d/1_fzKfQfXqMSg8cw1wEN49fZ4KFz6YRk8lVyyA5Y31W0/edit?usp=sharing)
