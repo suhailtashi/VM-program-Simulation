@@ -35,6 +35,7 @@ This project walks through a full simulation of building a vulnerability managem
 - [Remediation Round 4: Windows OS Updates](#remediation-round-4-windows-os-updates)
 - [Remediation Round 5: Certificate Trust Bypass (CVE-2013-3900)](#remediation-round-5-certificate-trust-bypass-cve-2013-3900--smb-signing-enforcement)
 - [First Cycle Remediation Effort Summary](#first-cycle-remediation-effort-summary)
+- [Special Thanks](#special-thanks-to)
 
 ---
 
@@ -213,6 +214,8 @@ Key activities in Maintenance Mode include:
 - **Ongoing Communication with Stakeholders**: Maintain open communication with teams responsible for remediation, ensuring efficient coordination.
 
 By maintaining an active vulnerability management process, organizations can stay ahead of emerging threats and ensure long-term security resilience.
+
+---
 
 ### Special Thanks To
 - **Josh Madakor** for creating the [Cyber Range](https://www.skool.com/cyber-range/about?ref=55aab77677f844cba064b72c3d055fca) which this project was a part of.
